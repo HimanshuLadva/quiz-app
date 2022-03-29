@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Oxygen:300,regular,700);
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Oxygen";
+    background-image: linear-gradient(92.7deg, rgba(245, 212, 212, 1) 8.5%, rgba(252, 251, 224, 1) 90.2%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.quiz-container {
+    background-color: white;
+    width: 600px;
+    max-width: 100%;
+    box-shadow: 0px 0px 19px 3px black;
+    border-radius:15px; 
+    overflow: hidden;
+}
+
+.quiz-header {
+    padding: 2rem;
+}
+
+ul {
+    padding: 0;    
+}
+
+.quiz-container > button {
+    background-color:rgb(79, 79, 219);
+    display: block;
+    width: 100%;
+    color: white;
+    font-family: inherit;
+    font-size: 1.2rem;
+    border: none;
+    padding: 1.4rem;
+}
+
+button:hover {
+    background-color:rgb(79, 79, 245);
+}
+
+button:focus {
+    background-color: rgb(79, 79, 210);
+}
+
+h2 {
+    margin: 0;
+}
+
+ul li {
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight:500;
+    margin: 1rem 0;
+}
+
+ul li label {
+    cursor: pointer;
+}
+
+.result {
+    text-align: center;
+    font-size:2.5rem;
+    padding: 25px;
+}
